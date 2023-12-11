@@ -4,11 +4,11 @@ import FooterSection from '../Components/FooterSection';
 
 const MainLayout = () => {
   return (
-    <div>
+    <>
       <NavbarSection />
       <Outlet />
       <FooterSection />
-    </div>
+    </>
   );
 };
 
