@@ -1,5 +1,13 @@
+import BannerSection from '../../Components/BannerSection/BannerSection';
+import NavbarSection from '../../Components/Navbar/NavbarSection';
+
 const HomePages = () => {
-  return <div>this is home page</div>;
+  return (
+    <>
+      <BannerSection />
+      <NavbarSection />
+    </>
+  );
 };
 
 export default HomePages;

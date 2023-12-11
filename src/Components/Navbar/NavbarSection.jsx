@@ -1,7 +1,5 @@
-// import { NavLink } from 'react-router-dom';
 import Logo from '../../assets/_06cc4017-b38b-4b61-a4a2-2871c9b6d694.jpg';
 
-// import { MdDarkMode, MdLightMode } from 'react-icons/md';
 import { useState } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { HiX } from 'react-icons/hi';
@@ -19,6 +17,7 @@ const NavbarSection = () => {
   const handleToggleIcon = () => {
     setToggleIcon(!toggleIcon);
   };
+
   return (
     <div>
       <nav className="navbar">
